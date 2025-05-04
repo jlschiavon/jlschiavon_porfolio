@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jorge Schiavon | Engineering Portfolio</title>
+  <link rel="icon" href="images/favicon.png" type="image/png" />
+  <meta name="description" content="Engineering portfolio of Jorge Schiavon, showcasing projects in R&D, robotics, mechanical design, drones, power electronics, and educational technology.">
+  <meta name="keywords" content="Jorge Luis Schiavon Pérez, Engineering Portfolio, mechanical design, student, job, R&D, BLDC motors, power electronics, mechatronics, innovation, EdTech">
+  <meta name="author" content="Jorge Luis Schiavon Pérez">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+  <style>
+    .text-electric-blue { color: #00FFFF; }
+    .bg-electric-blue { background-color: #00FFFF; }
+    .border-electric-blue { border-color: #00FFFF; }
+  </style>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  body {
+    font-family: 'Orbitron', sans-serif;
+  }
+</style>
+
+
+</head>
+<body class="bg-black text-gray-200 relative z-10 font-sans">
+  <!-- Fondo con imagen y opacidad -->
+  <div class="fixed inset-0 z-0 bg-cover bg-center opacity-50" style="background-image: url('https://via.placeholder.com/1600x900');"></div>
+
+
+  
+<!-- Navigation Bar -->
+<nav class="bg-gray-900 shadow-lg sticky top-0 z-50 border-b-2 border-electric-blue">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+    <h1 class="text-xl font-bold text-yellow tracking-wide uppercase">Jorge Schiavon | Engineering Portfolio</h1>
+    <div class="space-x-4">
+      <a href="#home" class="text-gray-300 font-medium hover:text-electric-blue transition">Home</a>
+      <a href="#professional-projects" class="text-gray-300 font-medium hover:text-electric-blue transition">Professional Projects</a>
+      <a href="#Extracurricular-Activities" class="text-gray-300 font-medium hover:text-electric-blue transition">Extracurricular activities</a>
+      <a href="#class-projects" class="text-gray-300 font-medium hover:text-electric-blue transition">Class Projects</a>
+      <a href="https://drive.google.com/file/d/1j6oIk4MOrnehQWQk3mgm_p1Ph02hENy4/view?usp=sharing" target="_blank" class="text-white bg-red-500 hover:bg-red-600 px-4 py-2 rounded transition font-semibold shadow">
+        CV
+      </a>
+    </div>
+  </div>
+</nav>
+
+
+<!-- Hero Banner -->
+<section id="home" class="bg-gradient-to-br from-black via-gray-1800 to-black py-20 px-6 relative z-10">
+  <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between space-y-10 md:space-y-0 md:space-x-10">
+    
+    <!-- Text Section -->
+<div class="md:w-2/3 text-left space-y-7">
+  <h2 class="text-6xl sm:text-9xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 to-red-600">
+    Hi, I'm Jorge Schiavon
+  </h2>
+
+  <div class="flex items-center space-x-3">
+    <h3 class="text-xl sm:text-2xl font-semibold text-blue-600 uppercase tracking-wide">
+      Mechatronics Engineer at 
+    </h3>
+    <img src="images/tec-logo.png" alt="Tecnológico de Monterrey Logo" class="w-23 h-23 sm:w-20 sm:h-20 object-contain">
+  </div>
+
+  <p class="text-md sm:text-lg text-gray-100 font-italic mt-4">
+    Engineer about to graduate, passionate about <strong> technology </strong> and <strong> creating impactful solutions.</strong>🚀🔥
+  </p>
+  
+  <p class="text-md sm:text-lg text-gray-300 font-normal mt-4">
+    Focused on <strong>mechanical and electromechanical design</strong>, 
+    <strong>manufacturing</strong>, <strong>power electronics</strong>, and 
+    <strong>energy generation</strong>, with a vision centered on 
+    <strong>research and development</strong> of technologies that shape the future.
+  </p>
+  
+  
+
+  <div class="mt-4 text-m text-gray-500">
+    <p class="italic">
+      Connect with me on 
+      <a href="https://www.linkedin.com/in/jlschiavon" target="_blank" class="text-blue-600 hover:underline font-semibold">LinkedIn</a> |
+      <a href="https://www.youtube.com/@jlschiavon" target="_blank" class="text-red-600 hover:underline font-semibold">YouTube</a> |
+      <a href="https://www.instagram.com/jlschiavon/" target="_blank" class="text-pink-500 hover:underline font-semibold">Instagram</a> 
+    </p>
+  </div>
+</div>
+
+
+    <!-- Image Section -->
+    <div class="md:w-4/9 w-full flex justify-center">
+      <img src="images/Imagen Portafolio.jpg" alt="Jorge Schiavon" class="w-85 h-85 object-cover rectangle shadow-lg border-4 border-red">
+    </div>
+
+  </div>
+</section>
+
+
+
+  <main class="max-w-7xl mx-auto px-4 py-10">
+    <section id="professional-projects" class="mb-12">
+
+      <section id="professional-projects" class="mb-20">
+        <div class="animate-fade-in">
+          <h2 class="text-3xl font-bold text-gray-100 mb-8 border-b-2 border-blue-500 pb-2">Professional Projects </h2>
+          
+          
+      
+<!--Professional Projects-->
+
+  <!-- Wrapper for cards with vertical spacing -->
+  <div class="flex flex-col space-y-6">
+
+    <!-- First Card -->
+    <div class="relative bg-gray-900 text-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 border border-gray-700">
+      <!-- Date Tag -->
+      <div class="absolute top-2 right-2 bg-orange-600 text-white text-xs font-semibold px-3 py-1 rounded-full shadow">
+        Aug 2024 – Dec 2024
+      </div>
+
+      <!-- Main Content -->
+      <div class="flex flex-col sm:flex-row sm:items-start p-6">
+        <div class="flex-1 sm:pr-4">
+          <div class="flex items-center mb-2">
+            <svg class="w-6 h-6 text-electric-blue mr-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path d="M12 4.354a4 4 0 014 0l5 2.886a4 4 0 012 3.464v5.692a4 4 0 01-2 3.464l-5 2.886a4 4 0 01-4 0l-5-2.886a4 4 0 01-2-3.464V10.704a4 4 0 012-3.464l5-2.886z"></path>
+            </svg>
+            <h3 class="text-lg font-semibold text-white">Brushless Motor Test Bench: Design & Implementation</h3>
+          </div>
+
+          <p class="text-sm text-gray-300 mb-2">
+            Developed at 
+            <a href="https://revistaarmas.mx/2024/11/12/unidad-de-investigacion-y-desarrollo-tecnologico-semar/" target="_blank" class="text-electric-blue hover:underline font-medium">
+              Unidad de Investigacion y Desarrollo Tecnologico de la Armada de México
+            </a>
+          </p>
+          <p class="text-sm text-gray-400 mb-4">
+            Mechanical design, electronic design and construction of a test bench for measuring motor-propeller performance in military UAV applications.
+          </p>
+
+          <a href="https://www.youtube.com/watch?v=iVG56FULgfY" class="inline-block bg-red-500 hover:bg-red-600 text-white text-sm font-bold px-3 py-2 rounded transition">
+            Fully built and functional prototype (YouTube Video) →
+          </a>
+
+          <a href="https://drive.google.com/file/d/16YaAI5-mfYUqmUFN6iJNMMwv-F3Mtdm3/view?usp=sharing" class="inline-block bg-red-500 hover:bg-red-600 text-white text-sm font-bold px-3 py-2 rounded transition">
+            Technical Report (PDF) →
+          </a>
+
+          <!-- Image Gallery -->
+          <div class="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <!-- Image 1 -->
+            <div>
+              <img src="images/BLDC1.jpg" alt="CAD Model 1" class="w-full h-full rounded-lg border border-gray-600">
+              <p class="text-xs text-gray-300 mt-1">Testbench power phase and electronic subsystems</p>
+            </div>
+            <!-- Image 2 -->
+            <div>
+              <img src="images/BLDC2.jpg" alt="CAD Model 2" class="w-full h-full rounded-lg border border-gray-600">
+              <p class="text-xs text-gray-300 mt-1">PCB prototype</p>
+            </div>
+            <!-- Image 3 -->
+            <div>
+              <img src="images/BLDC3.jpg" alt="CAD Model 3" class="w-full h-full rounded-lg border border-gray-600">
+              <p class="text-xs text-gray-300 mt-1">Final 3D model of the project prototype</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Cover Image -->
+        <div class="w-full sm:w-32 sm:h-32 mt-4 sm:mt-5">
+          <img class="rounded-lg w-full h-full object-cover" src="images/Cover_UNINDETEC.png" alt="Project Cover">
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- Second Card -->
+<div class="relative bg-gray-900 text-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 border border-gray-700">
+  <!-- Date Tag -->
+  <div class="absolute top-2 right-2 bg-orange-600 text-white text-xs font-semibold px-3 py-1 rounded-full shadow">
+    Aug 2024 – Dec 2024
+  </div>
+
+  <!-- Main Content -->
+  <div class="flex flex-col sm:flex-row sm:items-start p-6">
+    <div class="flex-1 sm:pr-4">
+      <div class="flex items-center mb-2">
+        <svg class="w-6 h-6 text-electric-blue mr-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path d="M12 4.354a4 4 0 014 0l5 2.886a4 4 0 012 3.464v5.692a4 4 0 01-2 3.464l-5 2.886a4 4 0 01-4 0l-5-2.886a4 4 0 01-2-3.464V10.704a4 4 0 012-3.464l5-2.886z"></path>
+        </svg>
+        <h3 class="text-lg font-semibold text-white">Tilt-rotor miitary UAV: Proof of concept</h3>
+      </div>
+
+      <p class="text-sm text-gray-300 mb-2">
+        Developed at 
+        <a href="https://revistaarmas.mx/2024/11/12/unidad-de-investigacion-y-desarrollo-tecnologico-semar/" target="_blank" class="text-electric-blue hover:underline font-medium">
+          Unidad de Investigacion y Desarrollo Tecnologico de la Armada de México
+        </a>
+      </p>
+      <p class="text-sm text-gray-400 mb-4">
+        Designed a proof of concept of a hybrid tiltrotor drone for tactical UAV operations, integrating fixed-wing and multirotor capabilities to enhance range, stability, and vertical takeoff.
+      </p>
+
+      <a href="https://www.youtube.com/watch?v=iVG56FULgfY" class="inline-block bg-red-500 hover:bg-red-600 text-white text-sm font-bold px-3 py-2 rounded transition">
+        Watch video →
+      </a>
+
+      <a href="https://drive.google.com/file/d/1XyiLdG7S-esb_oKymF-eX_bibK5IoL_M/view?usp=sharing" class="inline-block bg-red-500 hover:bg-red-600 text-white text-sm font-bold px-3 py-2 rounded transition">
+        Technical Report (PDF) →
+      </a>
+
+      <!-- Image Gallery -->
+      <div class="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-4">
+        <!-- Image 1 -->
+        <div>
+          <img src="images/VTOL1.png" alt="CAD Model 1" class="w-full h-auto rounded-lg border border-gray-600">
+          <p class="text-xs text-gray-300 mt-1">Calculation of MTOW, simulation and pressure distribution around airfoil profile</p>
+        </div>
+        <!-- Image 2 -->
+        <div>
+          <img src="images/VTOL2.png" alt="CAD Model 2" class="w-full h-auto rounded-lg border border-gray-600">
+          <p class="text-xs text-gray-300 mt-1">Proof of concept: CAD Model - tilt rotor mechanism is added on wing structures</p>
+        </div>
+        <!-- Image 3 -->
+        <div>
+          <img src="images/VTOL3.png" alt="CAD Model 3" class="w-full h-auto rounded-lg border border-gray-600">
+          <p class="text-xs text-gray-300 mt-1">Test of assembly and function of elevator</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project Cover Image -->
+    <div class="w-full sm:w-32 sm:h-32 mt-4 sm:mt-5">
+      <img class="rounded-lg w-full h-full object-cover" src="images/Cover_UNINDETEC.png" alt="Project Cover">
+    </div>
+  </div>
+</div>
+
+<!-- Third Card -->
+<div class="relative bg-gray-900 text-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 border border-gray-700">
+  <!-- Date Tag -->
+  <div class="absolute top-2 right-2 bg-orange-600 text-white text-xs font-semibold px-3 py-1 rounded-full shadow">
+    Nov 2023 – Jul 2024
+  </div>
+
+  <!-- Main Content -->
+  <div class="flex flex-col sm:flex-row sm:items-start p-6">
+    <div class="flex-1 sm:pr-4">
+      <div class="flex items-center mb-2">
+        <svg class="w-6 h-6 text-electric-blue mr-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path d="M12 4.354a4 4 0 014 0l5 2.886a4 4 0 012 3.464v5.692a4 4 0 01-2 3.464l-5 2.886a4 4 0 01-4 0l-5-2.886a4 4 0 01-2-3.464V10.704a4 4 0 012-3.464l5-2.886z"></path>
+        </svg>
+        <h3 class="text-lg font-semibold text-white">Harness Design and optimization of an ATM</h3>
+      </div>
+
+      <p class="text-sm text-gray-300 mb-2">
+        Developed for 
+        <a href="https://www.banorte.com" target="_blank" class="text-electric-blue hover:underline font-medium">
+          Banorte
+        </a> with collaboration of Tecnológico de Monterrey Campus CCM
+      </p>
+      <p class="text-sm text-gray-400 mb-4">
+        Designed harnesses and electrical routing in CAD, optimizing serviceability through collaboration with engineering teams at Tec de Monterrey Puebla and CDMX campuses. No shown images due to confidentiallity.
+      </p>
+
+      
+    </div>
+
+    <!-- Project Cover Image -->
+    <div class="w-full sm:w-32 sm:h-32 mt-4 sm:mt-5">
+      <img class="rounded-lg w-full h-full object-cover" src="images/banorte-logo.png" alt="Project Cover">
+    </div>
+  </div>
+</div>
+
+<!-- Fourth Card -->
+<div class="relative bg-gray-900 text-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 border border-gray-700">
+  <!-- Date Tag -->
+  <div class="absolute top-2 right-2 bg-orange-600 text-white text-xs font-semibold px-3 py-1 rounded-full shadow">
+    Nov 2021 – Jan 2022
+  </div>
+
+  <!-- Main Content -->
+  <div class="flex flex-col sm:flex-row sm:items-start p-6">
+    <div class="flex-1 sm:pr-4">
+      <div class="flex items-center mb-2">
+        <svg class="w-6 h-6 text-electric-blue mr-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path d="M12 4.354a4 4 0 014 0l5 2.886a4 4 0 012 3.464v5.692a4 4 0 01-2 3.464l-5 2.886a4 4 0 01-4 0l-5-2.886a4 4 0 01-2-3.464V10.704a4 4 0 012-3.464l5-2.886z"></path>
+        </svg>
+        <h3 class="text-lg font-semibold text-white">Maintenance activities</h3>
+      </div>
+
+      <p class="text-sm text-gray-300 mb-2">
+        Developed at 
+        <a href="https://www.poliuretanossw.com.mx" target="_blank" class="text-electric-blue hover:underline font-medium">
+          PSW
+        </a>
+      </p>
+      <p class="text-sm text-gray-400 mb-4">
+        Maintained polyurethane injection systems, measuring KPIs in a dashboard. Optimized electrical panel wiring for easier servicing, also enhanced processes to improve product stress testing for the VW Taos project.
+      </p>
+
+      <!-- Image Gallery -->
+      <div class="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-4">
+        <!-- Image 1 -->
+        <div>
+          <img src="images/PSW1.jpg" alt="CAD Model 1" class="w-full h-auto rounded-lg border border-gray-600">
+          <p class="text-xs text-gray-300 mt-1">Reconditioning of electrical panels</p>
+        </div>
+        <!-- Image 2 -->
+        <div>
+          <img src="images/PSW2.jpg" alt="CAD Model 2" class="w-full h-auto rounded-lg border border-gray-600">
+          <p class="text-xs text-gray-300 mt-1">Changing and maintaining injection heads on robots</p>
+        </div>
+        <!-- Image 3 -->
+        <div>
+          <img src="images/PSW3.jpg" alt="CAD Model 3" class="w-full h-auto rounded-lg border border-gray-600">
+          <p class="text-xs text-gray-300 mt-1">Review of pneumatic, hydraulic and electrical systems in material transport lines</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project Cover Image -->
+    <div class="w-full sm:w-32 sm:h-32 mt-4 sm:mt-5">
+      <img class="rounded-lg w-25 h-12 object-cover" src="images/PSW-logo.png" alt="Project Cover">
+    </div>
+  </div>
+</div>
+
+  </div> <!-- End wrapper -->
+</section>
+
+        
+        
+        <!-- Agrega más proyectos aquí -->
+      </div>
+    </section>
+
+    <section id="Extracurricular-Activities" class="mb-20">
+      <div class="animate-fade-in">
+        <h2 class="text-3xl font-bold text-gray-100 mb-8 border-b-2 border-red-500 pb-2">Extracurricular Activities</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+    
+          <!-- Activity Card 1 -->
+          <div class="relative bg-gray-900 border border-gray-700 rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+    
+            <div class="flex flex-col p-6 space-y-4">
+              <h3 class="text-xl font-semibold text-white">Manufacturing & Design of an Electric E-Kart (1/2)</h3>
+              <p class="text-sm text-gray-300">
+                Leading <a href="https://www.linkedin.com/company/escuder-a-b-racing/posts/?feedView=all" target="_blank" class="text-electric-blue hover:underline font-medium">
+                  Escudería B Racing
+                </a>, sponsored by 
+                <a href="https://www.schaeffler.mx/en/" target="_blank" class="text-electric-blue hover:underline font-medium">
+                  Schaeffler
+                </a> R&D E-Mobility
+              </p>
+              <p class="text-sm text-gray-300">
+                B Racing started as a team of 5 members on Feb 2022. After the proposal of a project of the automotive engineering students (Aug 2023) to design and manufacture an E-Kart, the joint venture of all members took place. Schaeffler proposed to sponsor the project. This is the inspiration, design, manufacturing and installation processes of main components and first testings of the eKart BR24-E - fabricated by students. Mentor: PhD (mechanic engineer) David Hernández Castillo. 
+              </p>
+              
+              <!-- Image Gallery -->
+              <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <!-- Image 1 -->
+                <div>
+                  <img src="images/Bracing1.png" alt="CAD Model 1" class="w-full h-auto rounded-lg border border-gray-600">
+                  
+                </div>
+                <!-- Image 2 -->
+                <div>
+                  <img src="images/Bracing2.png" alt="CAD Model 2" class="w-full h-auto rounded-lg border border-gray-600">
+                  
+                </div>
+              </div>
+    
+              <!-- Embedded Video -->
+              <div class="mt-4">
+                <div class="aspect-w-4 aspect-h-3">
+                  <iframe class="w-full h-full rounded-lg"
+                    src="https://youtube.com/embed/KeW6jdiKbaI"
+                    title="B Racing Student Racing Team | eKart BR24-E | Manufacturing & Design ITESM | Jan 2024"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                  </iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+   
+          <!-- Activity Card 2 -->
+          <div class="relative bg-gray-900 border border-gray-700 rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+    
+            <div class="flex flex-col p-6 space-y-4">
+              <h3 class="text-xl font-semibold text-white">Manufacturing & Design of an Electric E-Kart (2/2)</h3>
+              <p class="text-sm text-gray-300">
+                Leading <a href="https://www.linkedin.com/company/escuder-a-b-racing/posts/?feedView=all" target="_blank" class="text-electric-blue hover:underline font-medium">
+                  Escudería B Racing
+                </a>, sponsored by 
+                <a href="https://www.schaeffler.mx/en/" target="_blank" class="text-electric-blue hover:underline font-medium">
+                  Schaeffler
+                </a> R&D E-Mobility
+              </p>
+              <p class="text-sm text-gray-300">
+                Testing, manufacturing, bodywork creation and competition of the eKart BR24-E. Winners of the Electratón 2024 Season with 3x 2nd and 2x 1st place races in Toluca, Querétaro, Cuautla, Guadalajara and Monterrey racing tracks. The team was invited to participate in Formula E CDMX Grand Prix on Jan 2025. 
+              </p>
+              
+              <!-- Image Gallery -->
+              <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <!-- Image 1 -->
+                <div>
+                  <img src="images/Bracing3.png" alt="CAD Model 1" class="w-full h-auto rounded-lg border border-gray-600">
+                  
+                </div>
+                <!-- Image 2 -->
+                <div>
+                  <img src="images/Bracing4.png" alt="CAD Model 2" class="w-full h-auto rounded-lg border border-gray-600">
+                  
+                </div>
+              </div>
+    
+              <!-- Embedded Video -->
+              <div class="mt-4">
+                <iframe class="w-full h-[315px] rounded-lg"
+                  src="https://www.youtube.com/embed/DU1m6jk3sw0"
+                  title="B Racing Student Racing Team | eKart BR24-E | Manufacturing & Design ITESM | Oct 2024"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen>
+                </iframe>
+              </div>
+            </div>
+          </div>
+
+          <!-- Activity Card 3 -->
+          <div class="relative bg-gray-900 border border-gray-700 rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+    
+            <div class="flex flex-col p-6 space-y-4">
+              <h3 class="text-xl font-semibold text-white">LiderEdu: Social Entrepreneurship for mexican teachers</h3>
+              <p>Independent project</p>
+              <p class="text-sm text-gray-300">
+                LiderEdu: an online ai-powered platform for the teachers who lead our children in Mexico. It is a way to inspire teachers to lead their own lives and their students'.
+              </p>
+    
+              <!-- Embedded Video -->
+              <div class="mt-4">
+                <iframe class="w-full h-[315px] rounded-lg"
+                  src="https://youtube.com/embed/QC9PF8hntqE"
+                  title="B Racing Student Racing Team | eKart BR24-E | Manufacturing & Design ITESM | Oct 2024"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen>
+                </iframe>
+              </div>
+            </div>
+          </div>
+   
+
+        </div>
+      </div>
+    </section>
+    
+
+    <section id="class-projects" class="mb-20">
+      <div class="animate-fade-in">
+        <h2 class="text-3xl font-bold text-gray-100 mb-8 border-b-2 border-yellow-500 pb-2">Class Projects</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+    
+        <!-- Project Card 0 -->
+        <div class="relative bg-gray-900 border border-gray-700 rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+          <div class="flex flex-col p-6 space-y-4">
+            
+            <h3 class="text-xl font-semibold text-white">Design & Implementation of a 3D Printable Concrete Extrusion and Mixing System | Final Semester Project</h3>
+            <p class="text-gray-300">Subject: Design and implementation of mechatronic systems | Civil + Mechatonics Engineering Depts.</p>
+
+            <!-- Image Gallery -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
+              <div>
+                <img src="images/Progress1.jpg" alt="Progress Image 1" class="rounded-lg border border-gray-700">
+                <p class="text-sm text-gray-400 mt-1 text-center">Mechanical design of elements</p>
+              </div>
+              <div>
+                <img src="images/Progress2.jpg" alt="Progress Image 2" class="rounded-lg border border-gray-700">
+                <p class="text-sm text-gray-400 mt-1 text-center">Initial extrusion system setup</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Project Card 0 -->
+        <div class="relative bg-gray-900 border border-gray-700 rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+          <div class="flex flex-col p-6 space-y-4">
+            
+            <h3 class="text-xl font-semibold text-white">Automation of Process Line | Kirchhoff Automotive Puebla</h3>
+            <p class="text-gray-300">Subject: Manufacturing systems automation</p>
+            <img src="images/logo-kirchhoff.png" alt="Mondelez-logo" class="w-12.5 border border-gray-700">
+
+              <!-- Embedded Video -->
+              <div class="mt-4">
+                <div class="aspect-w-1 aspect-h-1">
+                  <iframe class="w-full h-full rounded-lg"
+                    src="https://youtube.com/embed/9L1RxRr6_0g"
+                    
+                    title="Space State Control of a Second Order Transfer Function"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                  </iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+          <!-- Project Card 1 -->
+          <div class="relative bg-gray-900 border border-gray-700 rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+    
+            <div class="flex flex-col p-6 space-y-4">
+              <h3 class="text-xl font-semibold text-white">Space State Control of a Second Order Transfer Function</h3>
+              <p>Subject: Design of Control Systems</p>
+              
+              <!-- Embedded Video -->
+              <div class="mt-4">
+                <div class="aspect-w-1 aspect-h-1">
+                  <iframe class="w-full h-full rounded-lg"
+                    src="https://youtube.com/embed/tzoy6NqbJcA"
+                    title="Space State Control of a Second Order Transfer Function"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                  </iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+   
+         <!-- Project Card 2 -->
+         <div class="relative bg-gray-900 border border-gray-700 rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+    
+          <div class="flex flex-col p-6 space-y-4">
+            <h3 class="text-xl font-semibold text-white">Passive 1/4 Car Suspension Modelling and Control</h3>
+            <p>Subject: Modelling & Automation</p>
+            
+            <!-- Embedded Video -->
+            <div class="mt-4">
+              <div class="aspect-w-1 aspect-h-1">
+                <iframe class="w-full h-full rounded-lg"
+                  src="https://youtube.com/embed/k9PyjKDuF7M"
+                  title="Pasive 1/4 Car Suspension Modelling and Control"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen>
+                </iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+
+          <!-- Project Card 3 -->
+         <div class="relative bg-gray-900 border border-gray-700 rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+    
+          <div class="flex flex-col p-6 space-y-4">
+            <h3 class="text-xl font-semibold text-white">Food industry process for packaging | Mondelez International </h3>
+            <p>Subject: Analysis of materials & manufacturing</p>
+            <img src="images/mondelez-logo.jpg" alt="Mondelez-logo" class="w-12.5 border border-gray-700">
+            
+            <!-- Embedded Video -->
+            <div class="mt-4">
+              <div class="aspect-w-1 aspect-h-1">
+                <iframe class="w-full h-full rounded-lg"
+                  src="https://youtube.com/embed/2CgpozCOlWA"
+                  title="Food industry process for packaging | Mechatronics 4th Semester Final Project"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen>
+                </iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Card 4 -->
+        <div class="relative bg-gray-900 border border-gray-700 rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+    
+          <div class="flex flex-col p-6 space-y-4">
+            <h3 class="text-xl font-semibold text-white">PLC Bottle Filling Control Process </h3>
+            <p>Subject: Manufacturing Systems Automation</p>
+
+            
+            <!-- Embedded Video -->
+            <div class="mt-4">
+              <div class="aspect-w-1 aspect-h-1">
+                <iframe class="w-full h-[400px] rounded-lg"
+                  src="https://youtube.com/embed/CuluaMD17Tg"
+                  title="PLC Bottle Filling Control Process | Manufacturing Systems Automation | Project"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen>
+                </iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+   
+
+        </div>
+      </div>
+    </section>
+    
+
+
+    <section class="mb-12 px-4 sm:px-0">
+      <h2 class="text-2xl font-semibold mb-4">Contact Info</h2>
+      
+      <p class="text-sm sm:text-base mb-1">
+        E-mail me at 
+        <a href="mailto:jorge.schiavon@outlook.es" class="text-blue-600 hover:underline font-medium">
+          jorge.schiavon@outlook.es
+        </a>
+      </p>
+    
+      <p class="text-sm sm:text-base italic mb-1">
+        <a href="https://www.linkedin.com/in/jlschiavon" target="_blank" class="text-blue-600 hover:underline font-semibold">LinkedIn: @jlschiavon</a> |
+        <a href="https://www.youtube.com/@jlschiavon" target="_blank" class="text-red-600 hover:underline font-semibold">YouTube: @jlschiavon</a> |
+        <a href="https://www.instagram.com/jlschiavon/" target="_blank" class="text-pink-500 hover:underline font-semibold">Instagram: @jlschiavon</a> 
+      </p>
+    
+      <p class="text-sm sm:text-base text-gray-300">Puebla, Mexico</p>
+    </section>
+    
+  </main>
+
+  <footer class="bg-white mt-10 p-6 text-center text-sm text-gray-600">
+    &copy; 2025 Jorge Schiavon. All rights reserved.
+  </footer>
+
+  <style>
+    @keyframes fade-in {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .animate-fade-in {
+      animation: fade-in 1s ease-out;
+    }
+  </style>
+</body>
+</html>
